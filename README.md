@@ -8,3 +8,4 @@ CREATE TABLE artists (
   id INTEGER <span style="color:#E63946">PRIMARY KEY</span>,
   name TEXT
 );
+-- Hola mundo
