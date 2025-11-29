@@ -9,18 +9,10 @@ CREATE TABLE artists (
   name TEXT
 );
 
-### Tabla artists
+### Resultado de la consulta
 
-| ID | Artista           |
-|----|-------------------|
-| 1  | The Beatles       |
-| 2  | Elvis Presley     |
-| 3  | Michael Jackson   |
-
-### Tabla albums
-
-| ID | Álbum                | ID_Artista |
-|----|----------------------|------------|
-| 1  | Bad                  | 3          |
-| 2  | A Hard Day's Night   | 1          |
-| 3  | Thriller             | 3          |
+| id  | nombre      | edad |
+|-----|-------------|------|
+| 1   | Ana         | 28   |
+| 2   | Luis        | 34   |
+| 3   | Carmen      | 22   |
