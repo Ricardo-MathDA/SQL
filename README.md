@@ -1,18 +1,10 @@
 # Múltiples tablas
 
-Una **"llave primaria"** es una columna que registra un identificador único en cada tabla, es un **ID** para cada registro, así aseguramos que en esa columna no se pueda duplicar su valor, ni tenga un valor `NULL`.  
-Es importante porque este valor es el que usamos para conectar múltiples tablas.
+<span style="color:#FF6B6B">► Llave primaria</span> → identificador único (nunca se repite ni es NULL)  
+<span style="color:#4ECDC4">► Llave foránea</span> → puede repetirse y aceptar NULL
 
 ```sql
 CREATE TABLE artists (
-  id INTEGER PRIMARY KEY,
+  id INTEGER PRIMARY KEY,   -- 🔴 PRIMARY KEY
   name TEXT
 );
-
-### Resultado de la consulta
-
-| id  | nombre      | edad |
-|-----|-------------|------|
-| 1   | Ana         | 28   |
-| 2   | Luis        | 34   |
-| 3   | Carmen      | 22   |
