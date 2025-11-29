@@ -1,2 +1,5 @@
-<span style="color: red;">Este texto será de color rojo.</span>
-<span style="color: #0969DA;">Este texto tendrá un color azul de GitHub.</span>
+| id | nombre   | edad |
+|----|-----------|------|
+| 1  | Ana       | 23   |
+| 2  | Roberto   | 31   |
+| 3  | Mariana   | 27   |
