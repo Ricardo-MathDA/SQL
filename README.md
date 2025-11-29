@@ -1,3 +1,5 @@
+<span style="background:#E63946; color:white; padding:2px 8px; border-radius:4px">PRIMARY KEY</span>
+
 # Múltiples tablas
 
 Una <span style="color:#E63946">**llave primaria**</span> es una columna que registra un identificador único → no se repite y nunca es NULL.  
