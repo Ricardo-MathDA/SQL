@@ -3,10 +3,14 @@
 Una **"llave primaria"** es una columna que registra un identificador único en cada tabla, es un **ID** para cada registro...
 
 ```sql
-CREATE TABLE artists(
-  id INTEGER PRIMARY KEY,
-  name TEXT
-);
+create table PedidosFebrero(
+cliente varchar(60),
+pedido date,
+entrega datetime2,
+relacion varchar(60),
+regalo varchar(60),
+entregado varchar(60),
+costo money);
 ```
 
 | id | nombre   | edad |
