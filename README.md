@@ -13,16 +13,16 @@ entregado varchar(60),
 costo money);
 ```
 
-| cliente            | pedido     | entrega             | relación | regalo     | entregado | costo|
-|--------------------|------------|---------------------|----------|------------|-----------|------|
-| Adel Rodríguez     | 2025/01/26 | 2025/02/14 06:38 pm | Anonimos | Rosas      | Si        | 1114 |
-| Hugo González      | 2025/01/12 | 2025/02/14 08:19 pm | Familiar | Combo      |           | 731  |
-| Abaigar Martínez   | 2025/01/25 | 2025/02/14 09:02 pm | Novios   | Rosas      | Entregado | 1040 |
-| Adolf Fernández    | 2025/02/03 | 2025/02/14 01:50 pm | Amigos   | Capibaras  | Si        | 403  |
-| Agostiño Pérez     | 2024/12/25 | 2025/02/14 06:38 pm | Amigos   | Chocolates | Entregado | 1140 |
-| Aberbequeye García | 2025/01/12 | 2025/02/14 04:28 pm | Novios   | Rosas      | Si        | 840  |
-| Aarón Silva        | 2025/01/02 | 2025/02/14 12:24 pm | Anonimos | Osos       | Entregado | 927  |
-| Adonis López       | 2024/12/28 | 2025/02/14 12:52 pm | Anonimos | Chocolates | Claro     | 968  |
-| Mateo Pereira      | 2024/12/16 | 2025/02/14 10:14 am | Novios   | Ramos      |           | 666  |
-| Adei Sosa          | 2025/02/01 | 2025/02/14 01:07 pm | Novios   | Combo      |           | 1272 |
-
+| cliente            | pedido     | entrega          | relacion | regalo     | entregado | costo   |
+|--------------------|------------|------------------|----------|------------|-----------|---------|
+| Adel Rodríguez     | 26/01/2025 | 14/02/2025 18:38 | Anonimos | Rosas      | Si        | 1114.00 |
+| Hugo González      | 12/01/2025 | 14/02/2025 20:19 | Familiar | Combo      |           | 731.00  |
+| Abaigar Martínez   | 25/01/2025 | 14/02/2025 21:02 | Novios   | Rosas      | Entregado | 1040.00 |
+| Adolf Fernández    | 03/02/2025 | 14/02/2025 13:50 | Amigos   | Capibaras  | Si        | 403.00  |
+| Agostiño Pérez     | 25/12/2024 | 14/02/2025 18:38 | Amigos   | Chocolates | Entregado | 1140.00 |
+| Aberbequeye García | 12/01/2025 | 14/02/2025 16:28 | Novios   | Rosas      | Si        | 840.00  |
+| Aarón Silva        | 02/01/2025 | 14/02/2025 12:24 | Anonimos | Osos       | Entregado | 927.00  |
+| Adonis López       | 28/12/2024 | 14/02/2025 12:52 | Anonimos | Chocolates | Claro     | 968.00  |
+| Mateo Pereira      | 16/12/2024 | 14/02/2025 10:14 | Novios   | Ramos      |           | 666.00  |
+| Adei Sosa          | 01/02/2025 | 14/02/2025 13:07 | Novios   | Combo      |           | 1272.00 |
+| Adrià Flores       | 13/01/2025 | 14/02/2025 21:16 | Novios   | Capibaras  | Si        | 177.00  |
