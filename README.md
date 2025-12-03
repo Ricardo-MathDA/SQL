@@ -1,6 +1,32 @@
-# Múltiples tablas
+# Creación de una base de datos
 
-Una **"llave primaria"** es una columna que registra un identificador único en cada tabla, es un **ID** para cada registro...
+Usando el comando **"CREATE"** crearemos una nueva base de datos llamado **CursoIntermedio** y usaremos esta base para proximos ejemplos
+
+```sql
+create database CursoIntermedio;
+
+use CursoIntermedio;
+```
+Ahora crearemos una nueva tabla llamada **ejemplo** dentro de nuestra base
+
+```sql
+create table ejemplo(
+valor nvarchar(2)
+);
+```
+Insertaremos valores a nuestra tabla **ejemplo** y haremos una consulta de esta tabla
+
+```sql
+insert into ejemplo values(N'5');
+
+select*from ejemplo;
+```
+EL resultado de nuestra consulta es el siguiente:
+
+| valor |
+|-------|
+| 5     |
+
 
 ```sql
 create table PedidosFebrero(
